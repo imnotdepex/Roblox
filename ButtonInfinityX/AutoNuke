@@ -34,7 +34,7 @@ local function teleportToNukeAndBack()
     if nuke then
 
         teleportPlayerToPosition(nuke.Position)
-        wait(5)
+        wait(2)
 
 
         if previousPos then
