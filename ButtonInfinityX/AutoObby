@@ -1,5 +1,5 @@
 -- Discord: The_Plaft
-local Obby
+local Obby = getgenv().Obby
 -- Easy, Medium, Hard
 
 
