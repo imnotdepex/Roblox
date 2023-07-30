@@ -16,6 +16,7 @@ getgenv().key = ""
 
 getgenv().Obby = ""
 -- Easy Medium Hard
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Deepppy/Roblox/main/ButtonInfinityX/AutoObby'))()
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
