@@ -58,7 +58,7 @@ local function teleportToObbyAndBack()
             if bunkerMesh then
 
                 teleportPlayerToPosition(bunkerMesh.Position)
-                wait(1)
+                wait(3)
 
 
                 if previousPos then
