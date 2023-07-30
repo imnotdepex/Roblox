@@ -1,4 +1,23 @@
 -- Discord: The_Plaft
+local Obby = ""
+-- Easy, Medium, Hard
+
+
+local teleportnum
+
+if Obby == "Easy" then
+    teleportnum = "Teleport 1"
+elseif Obby == "Medium" then
+    teleportnum = "Teleport 2"
+elseif Obby == "Hard" then
+    teleportnum = "Teleport 3"
+else
+    print("No chosen obby")
+    return
+end
+
+print("Chosen obby teleport:", teleportnum)
+
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
@@ -31,9 +50,11 @@ local function teleportToObbyAndBack()
     if door then
         print("Waiting BlockedDoor")
     else
-        local teleport3 = workspace.Obby:FindFirstChild("Teleport 3")
-        if teleport3 then
-            local bunkerMesh = teleport3:FindFirstChild("Meshes/obby+bunker_Cube.502")
+
+        
+        local teleport = workspace.Obby:FindFirstChild(teleportnum)
+        if teleport then
+                local bunkerMesh = teleport:FindFirstChild("Meshes/obby+bunker_Cube.502")
             if bunkerMesh then
 
                 teleportPlayerToPosition(bunkerMesh.Position)
