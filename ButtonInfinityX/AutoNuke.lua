@@ -1,4 +1,4 @@
--- Discord: The_Plaft
+-- Discord The_Plaft
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
