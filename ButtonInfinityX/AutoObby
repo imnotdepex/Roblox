@@ -33,11 +33,11 @@ local function teleportToObbyAndBack()
     else
         local teleport3 = workspace.Obby:FindFirstChild("Teleport 3")
         if teleport3 then
-            local bunkerMesh = teleport3:FindFirstChild("Meshes/obby+bunker_Circle.038")
+            local bunkerMesh = teleport3:FindFirstChild("Meshes/obby+bunker_Cube.502")
             if bunkerMesh then
 
                 teleportPlayerToPosition(bunkerMesh.Position)
-                wait(3)
+                wait(1)
 
 
                 if previousPos then
