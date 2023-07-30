@@ -2,10 +2,6 @@
 local Obby = ""
 -- Easy, Medium, Hard
 
-local function onObbyChanged(value)
-    Obby = value
-    print("Obby set to:", Obby)
-end
 
 local teleportnum
 
