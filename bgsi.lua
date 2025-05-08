@@ -264,7 +264,7 @@ local HatchToggle = EggsTab:CreateToggle({
 
 local Eggs = EggsTab:CreateDropdown({
     Name = "Choose the egg",
-    Options = {"Common Egg","Spotted Egg","Iceshard Egg","Spikey Egg","Magma Egg","Crystal Egg","Lunar Egg","Void Egg","Hell Egg","Nightmare Egg","Rainbow Egg","Snowman Egg","Mining Egg","Cyber Egg"},
+    Options = {"Common Egg","Spotted Egg","Iceshard Egg","Spikey Egg","Magma Egg","Crystal Egg","Lunar Egg","Void Egg","Hell Egg","Nightmare Egg","Rainbow Egg","Snowman Egg","Mining Egg","Cyber Egg","Game Egg"},
     CurrentOption = {"Common Egg"},
     MultipleOptions = false,
     Flag = "Eggs",
